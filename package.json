@@ -1,0 +1,22 @@
+{
+  "name": "react-native-keyscan-event",
+  "version": "0.1.0",
+  "description": "React Native Android module use for listen native keyboard event, listen scan barcode event and can dismiss keyboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "keyboard"
+  ],
+  "author": "Azhai",
+  "license": "MIT",
+  "repository": "https://github.com/azhai2016/react-native-keyscan-event",
+  "bugs": "https://github.com/azhai2016/azhai2016/react-native-keyscan-event/issues",
+  "peerDependencies": {
+    "react-native": ">=0.51"
+  }
+}
