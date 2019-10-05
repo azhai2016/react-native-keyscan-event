@@ -19,12 +19,12 @@ import java.util.HashMap;
 public class KeyScanModule extends ReactContextBaseJavaModule {
   private ReactContext mReactContext;
   private DeviceEventManagerModule.RCTDeviceEventEmitter mJSModule = null;
-  private static KeyboardModule instance = null;
+  private static KeyScanModule instance = null;
   private long last_up = 0;
   private String input_cache = "" ;
-  private int submitKeycode = 66;
+  private int submitKeycode = 61;
 
-  KeyboardModule(ReactApplicationContext reactContext) {
+  KeyScanModule(ReactApplicationContext reactContext) {
     super(reactContext);
     instance = this;
     mReactContext = reactContext;
@@ -36,7 +36,7 @@ public class KeyScanModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "KeyboardEvent";
+    return "KeyScanEvent";
   }
 
   @ReactMethod
